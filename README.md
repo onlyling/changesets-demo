@@ -2,4 +2,4 @@
 
 ## 参考
 
-- (muravjev/configs)[https://github.com/muravjev/configs]
+- [muravjev/configs](https://github.com/muravjev/configs)
