@@ -11,7 +11,8 @@
   },
   "scripts": {
     "dev": "tsx ./src/index.ts",
-    "build": "father build"
+    "build": "father build",
+    "lint:ts": "tsc --noEmit && eslint src --ext .ts,.tsx"
   },
   "author": "",
   "license": "Apache-2.0",

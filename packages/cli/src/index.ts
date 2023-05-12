@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import chalk from 'chalk'
 import { Command } from 'commander'
 import { run as envinfoRun } from 'envinfo'
