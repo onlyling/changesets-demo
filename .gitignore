@@ -1,0 +1,16 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+es
+lib
+*.local
+yarn-error.log
+.eslintcache
+# yarn.lock
+.umi
+.umi-production
+
+
+.mocks/
+docs-dist
