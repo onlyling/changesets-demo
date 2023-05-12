@@ -1,3 +1,3 @@
 module.exports = {
-  scopes: ['ci', 'cli'],
+  scopes: ['ci', 'cli', 'docs'],
 }
