@@ -1,0 +1,29 @@
+{
+  "name": "@t/cli",
+  "version": "0.0.1",
+  "description": "Chunfen",
+  "main": "./index.js",
+  "files": [
+    "./dist"
+  ],
+  "bin": {
+    "chunfen": "./index.js"
+  },
+  "scripts": {
+    "dev": "tsx ./src/index.ts",
+    "build": "father build"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
+    "envinfo": "^7.8.1",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/envinfo": "^7.8.1",
+    "@types/figlet": "^1.5.6",
+    "tsx": "^3.12.7"
+  }
+}
