@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "release:tag": "changeset tag",
+    "release:version": "changeset version",
     "commit": "npx git-cz",
     "prepare": "husky install"
   },
