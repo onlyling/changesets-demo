@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tag": "changeset tag",
+    "release:tag": "changeset tag",
     "commit": "npx git-cz",
     "prepare": "husky install"
   },
