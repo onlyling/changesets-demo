@@ -31,7 +31,7 @@ program
   .command('build')
   .description('build ')
   .action(() => {
-    console.log(textSync('Star'))
+    console.log(textSync('Build'))
   })
 
 program
