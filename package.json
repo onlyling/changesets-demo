@@ -3,10 +3,11 @@
   "name": "changesets-demo",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "release:tag": "changeset tag",
+    "release:changeset": "changeset",
     "release:version": "changeset version",
+    "release": "turbo run build && changeset publish",
+    "turbo:build": "turbo run build",
     "commit": "npx git-cz",
     "prepare": "husky install"
   },
@@ -52,5 +53,8 @@
       "eslint --fix",
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "turbo": "^1.9.6"
   }
 }
